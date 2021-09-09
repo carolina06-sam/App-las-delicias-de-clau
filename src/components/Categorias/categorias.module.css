@@ -1,0 +1,36 @@
+.icon {
+    height: 80px;
+    width: 80px;
+    padding-top: 50px;
+}
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 70px;
+    height: auto;
+    background: rgb(0, 4, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-family: "Salsa", cursive;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    .icon {
+        height: 150px;
+        width: 150px;
+        padding-top: 50px;
+    }
+}

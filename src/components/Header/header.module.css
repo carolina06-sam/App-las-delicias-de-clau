@@ -1,0 +1,11 @@
+body {
+    overflow-x: hidden;
+    background-image: url(../../img/background/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon {
+    height: 180px;
+    width: 215px;
+    padding-top: 50px;
+}

@@ -1,0 +1,108 @@
+import yogurt from "../src/img/Lacteos/yogurtfinal.png"
+
+
+
+[
+    {
+        "category": "lacteos",
+        "name": "yogurt",
+        "flavor": [
+            "Lulo",
+            "Arequipe",
+            "Kiwi",
+            "Guanabana",
+            "Mango",
+            "Melocoton",
+            "Fresa",
+            "Mora",
+            "Frutos rojos",
+            "Ron con pasas",
+            "Freijoa",
+            "Piña",
+            "Maracuya"
+        ],
+        "prices": 10500,
+        "amount": 2,
+        "image": "https://drive.google.com/file/d/1hWYS6unpv1ttecbkisUy44JmDFPRyP88/view"
+    },
+    {
+        "category": "lacteos",
+        "name": "Kumis",
+        "flavor": "Natural",
+        "prices": 10500,
+        "amount": 2,
+        "image": "https://drive.google.com/file/d/1SiWnD530E-nDEB3KmPwXydPmCh-PlGdQ/view?usp=sharing"
+    },
+    {
+        "category": "lacteos",
+        "name": "Queso",
+        "flavor": "Semidescremado",
+        "prices": 9000,
+        "amount": 1,
+        "image": "https://drive.google.com/file/d/1L87l8JLJ5ipo-_xUZmX1xFLJKF2hDl4M/view?usp=sharing"
+    },
+    {
+        "category": "Carnicos",
+        "name": "Tocineta ahumada",
+        "flavor": "Tocineta",
+        "prices": 6000,
+        "amount": 250,
+        "image": "https://drive.google.com/drive/folders/10l7pUMjvr0RQUVdYBNy0C8n2YWP-wFuc"
+    },
+    {
+        "category": "Carnicos",
+        "name": "Jamon ahumado",
+        "flavor": "Jamon",
+        "prices": 7000,
+        "amount": 500,
+        "image": "https://drive.google.com/drive/folders/10l7pUMjvr0RQUVdYBNy0C8n2YWP-wFuc"
+    },
+    {
+        "category": "Carnicos",
+        "name": "Chorizo parrillero mixto",
+        "flavor": "Chorizo",
+        "prices": 6000,
+        "amount": 10,
+        "image": "https://drive.google.com/drive/folders/10l7pUMjvr0RQUVdYBNy0C8n2YWP-wFuc"
+    },
+    {
+        "category": "Carnicos",
+        "name": "Chorizo parrillero de cóctel",
+        "flavor": "Chorizo",
+        "prices": 5500,
+        "amount": 1500,
+        "image": "https://drive.google.com/drive/folders/10l7pUMjvr0RQUVdYBNy0C8n2YWP-wFuc"
+    },
+    {
+        "category": "Carnicos",
+        "name": "Salchicha",
+        "flavor": "Salchicha",
+        "prices": 6500,
+        "amount": 500,
+        "image": "https://drive.google.com/drive/folders/10l7pUMjvr0RQUVdYBNy0C8n2YWP-wFuc"
+    },
+    {
+        "category": "Otros",
+        "name": "Galletas polvorosas",
+        "flavor": "Vainilla",
+        "prices": 8000,
+        "amount": 60,
+        "image": "https://drive.google.com/drive/folders/10l7pUMjvr0RQUVdYBNy0C8n2YWP-wFuc"
+    },
+    {
+        "category": "Otros",
+        "name": "Galletas polvorosas",
+        "flavor": "Vainilla",
+        "prices": 8000,
+        "amount": 60,
+        "image": "https://drive.google.com/drive/folders/10l7pUMjvr0RQUVdYBNy0C8n2YWP-wFuc"
+    },
+    {
+        "category": "Otros",
+        "name": "Almojabanas en paquete ",
+        "flavor": "Almojabana",
+        "prices": 9000,
+        "amount": 10,
+        "image": "https://drive.google.com/drive/folders/10l7pUMjvr0RQUVdYBNy0C8n2YWP-wFuc"
+    }
+]
