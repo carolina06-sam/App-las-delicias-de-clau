@@ -7,7 +7,7 @@ export const Otros = () => {
     const otros = data.filter((otros) => otros.category === "otros");
     return (
         <div>
-            <p>Otros</p>
+            {/* <p>Otros</p> */}
             {otros.map((otro, index) => (
                 <Cardotros key={index} otro={otro} />
             ))}

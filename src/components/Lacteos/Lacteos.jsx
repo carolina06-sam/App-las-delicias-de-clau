@@ -7,7 +7,7 @@ export const Lacteos = () => {
     const lacteos = data.filter((lacteos) => lacteos.category === "lacteos");
     return (
         <div>
-            <p>Lacteos</p>
+            {/* <p>Lacteos</p> */}
             {lacteos.map((lacteo, index) => (
                 <Cardlacteo key={index} lacteo={lacteo} />
             ))}

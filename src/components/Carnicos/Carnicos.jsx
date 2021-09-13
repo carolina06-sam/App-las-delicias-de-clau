@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../data";
 import { Cardcarnico } from "./Cardcarnico";
+import style from "./carnico.module.css";
 
 export const Carnicos = () => {
     console.log(data);
@@ -8,8 +9,8 @@ export const Carnicos = () => {
         (carnicos) => carnicos.category === "carnicos"
     );
     return (
-        <div>
-            <p>Carnico</p>
+        <div className={style.text}>
+            {/* <p>Carnico</p> */}
             {carnicos.map((carnico, index) => (
                 <Cardcarnico key={index} carnico={carnico} />
             ))}

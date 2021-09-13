@@ -10,7 +10,10 @@ export const Cardotros = ({ otro }) => {
                 <p> ${otro.prices} </p>
                 <p> {otro.flavor} </p>
                 <img src={otro.image} alt="logo" className={style.lacteos} />
-                <ShoppingCart />
+                <p>
+                    <ShoppingCart />
+                </p>
+                <button>Añadir a carrito</button>
             </div>
         </div>
     );

@@ -3,9 +3,10 @@
     width: 150px;
     height: 150px;
 }
+
 .container {
     width: 70vw;
-    height: 100hw;
+    height: auto;
     margin-top: 6vw;
     border-radius: 8px;
     padding-bottom: 20px;
@@ -20,20 +21,13 @@
 p {
     font-family: "Salsa", cursive;
     font-size: 30px;
-}
-.button {
-    font-size: 30px;
-    border-radius: 50%;
-    margin: 5px 30px;
-    /* margin-left: 30px; */
-    justify-content: space-around;
-    background-color: rgba(79, 123, 235, 0.5);
-    border: 1px dotted #ff8833;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .number {
     font-size: 25px;
 }
-
 .contador {
     width: 200px;
     height: 50px;
@@ -44,4 +38,27 @@ p {
     margin-left: 57px;
     font-family: Courier, sans-serif;
     color: #c8a2c8;
+}
+button {
+    color: rgb(31, 133, 180);
+    font-size: 15px;
+    background-color: rgb(230, 201, 164);
+    font-family: "Salsa", cursive;
+    border-radius: 20px;
+    border-style: inset;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: auto;
+        height: auto;
+        margin-top: 6vw;
+        border-radius: 8px;
+        padding-bottom: 20px;
+        background-color: rgba(79, 123, 235, 0.5);
+        box-shadow: 50px rgba(0, 0, 0, 0.2);
+    }
+    .body {
+        background-color: black;
+    }
 }
